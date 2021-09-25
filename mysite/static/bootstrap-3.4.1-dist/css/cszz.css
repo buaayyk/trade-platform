@@ -1,0 +1,5 @@
+{% load static %}
+
+body{
+    background: url("{% static '/image/beijing14.jpg' %}");
+}

@@ -1,0 +1,283 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果</title>
+    <link rel="stylesheet" href="{% static '/bootstrap-3.4.1-dist/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static '/bootstrap-3.4.1-dist/css/bootstrap-theme.css' %}">
+    <script src="{% static '/bootstrap-3.4.1-dist/jquery.min.js/jquery.min.js' %}"></script>
+    <script src="{% static '/bootstrap-3.4.1-dist/js/bootstrap.js' %}"></script>
+    <style>
+        .writeIn:HOVER {
+            -webkit-transition: border linear .1s, -webkit-box-shadow linear .4s;
+            border-color: rgb(248, 136, 48);
+            -webkit-box-shadow: 0 0 18px rgb(9, 165, 215);
+        }
+
+        .writeIn {
+            height: 100px;
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body>
+{#  这是第一部分：顶部的图形~#}
+<nav class="navbar navbar-default ">
+    <div class="jumbotron col-md-12 top"
+         style='background-image: url("{% static '/birthday/tittle.png' %}");background-size:contain;position: absolute;width: 100%;'>
+        <div class="container">
+            <center>
+                <h1 style="font-family: 'Times New Roman'">Double</h1>
+                <h3 style="font-family: 方正小标宋简体">北航专属二手交易网站，每个BUAAer的必备网站！</h3>
+            </center>
+            <p class="select2-close-mask"></p>
+        </div>
+    </div>
+</nav>
+
+{#  这是第二部分，即搜索结果的发放区域#}
+<div class="col-sm-4 col-xl-4" style="margin-top: 220px">
+    <!--== Start Shop Item ==-->
+    <div class="product-item">
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+<div class="col-sm-4 col-xl-4" style="margin-top: 220px">
+    <!--== Start Shop Item ==-->
+    <div class="product-item">
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+<div class="col-sm-4 col-xl-4" style="margin-top: 220px">
+    <!--== Start Shop Item ==-->
+    <div class="product-item">
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+<div class="col-sm-4 col-xl-4">
+    <!--== Start Shop Item ==-->
+    <div class="product-item" >
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px;">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+<div class="col-sm-4 col-xl-4">
+    <!--== Start Shop Item ==-->
+    <div class="product-item">
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+<div class="col-sm-4 col-xl-4" style=" display:  {{ judge }}">
+    <!--== Start Shop Item ==-->
+    <div class="product-item">
+        <div class="inner-content">
+            <div class="product-thumb">
+                <a href="single-product-simple.html">
+                    <img src="{% static '/birthday/4.jpg' %}" class="img-thumbnail"
+                         style="min-height: 60rem;background-size: cover;height: 240px;width: 740px">
+                </a>
+            </div>
+            <div class="product-desc">
+                <div class="product-info">
+                    <center>
+                        <h4 class="title"><a href="xxx.html">Meta Slevless Dress</a></h4>
+                        <div class="prices" style="color: #d58512">
+                            <span class="price">$40.00</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Shop Item ==-->
+</div>
+
+
+<center>
+    <div class="row">
+        <div class="col-12">
+            <div class="pagination-content-wrap border-top">
+                <nav class="pagination-nav">
+                    <ul class="pagination justify-content-center">
+                        <li><a class="disabled active prev">Prev</a></li>
+                        <li><a class="disabled active">1</a></li>
+                        <li><a href="2.html">2</a></li>
+                        <li><a href="3.html">3</a></li>
+                        <li><a class="next">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</center>
+
+<footer class="footer">
+    <p>.</p>
+    <div class="container"
+         style='background-image: url("{% static '/birthday/tittle.png' %}");background-size:contain;position: absolute;width: 100%;'>
+        <br>
+        <p>
+        </p>
+        <div class="row">
+            <div class="col-md-3">
+                <p></p>
+            </div>
+            {#          第一列#}
+            <div class="col-md-3">
+                <p style="font-family: 宋体,Fences; font-size: 21px">
+                    <button type="button" class="glyphicon glyphicon-education" aria-label=""></button>
+                    <strong>BUAA专属</strong></p>
+                <ul>
+                    <li>学号审查</li>
+                    <li>仅限校内</li>
+                    <li>安全保障</li>
+                    <li>To be continue......</li>
+                </ul>
+            </div>
+            {#          第二列#}
+            <div class="col-md-3">
+                <p style="font-family: 宋体,Fences; font-size: 21px">
+                    <button type="button" class="glyphicon glyphicon-king" aria-label=""></button>
+                    <strong>自由交易</strong></p>
+                <ul>
+                    <li>自由购买</li>
+                    <li>自由出售</li>
+                    <li>双方共议</li>
+                    <li>To be continue......</li>
+                </ul>
+            </div>
+            {#          第三列#}
+            <div class="col-md-3">
+                <p style="font-family: 宋体,Fences; font-size: 21px">
+                    <button type="button" class="glyphicon glyphicon-phone-alt" aria-label=""></button>
+                    <strong>联系建议</strong></p>
+                <ul>
+                    <li>意见反馈</li>
+                    <li>功能诉求</li>
+                    <li>
+                        <input type="text" placeholder="请输入建议或诉求" class="writeIn" style="height: 42px">
+                        <button onmouseover="this.style.backgroundColor='white'; this.style.color='orange'"
+                                onmouseout="this.style.backgroundColor='orange';this.style.color='white'" id="bigButton"
+                                class="btn btn-primary btn-lg" type="button" style="background: #eb9316;color: white;">
+                            提交
+                        </button>
+                    </li>
+                    <li>
+                        To be continue......
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <br>
+        <p>
+        </p>
+
+        <center>
+            <p>
+                <strong>
+                    @2021,september
+                    <button class="glyphicon glyphicon-sunglasses" type="button">
+
+                    </button>
+                    数据库队伍制作
+                </strong>
+            </p>
+        </center>
+    </div>
+
+</footer>
+
+</body>
+</html>
